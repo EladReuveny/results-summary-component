@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>Result Summary Component</title>
+</head>
+<body>
+    <div class="component-container">
+        <section class="result-container">
+            <h2>Your Result</h2>
+            <div class="score">
+                <div class="score__background">
+                    <span class="score__text--large">76</span>
+                    <span class="score__text--small">of 100</span>
+                </div>
+            </div>
+            <div class="result-summary">
+                <h2 class="result-summary__title">Great</h2>
+                <p class="result-summary__text">You scored higher than 65% of the people who have taken these tests.</p>
+            </div>
+        </section>
+
+        <section class="summary-container">
+            <h2>Summary</h2>
+            <div class="stats-container">
+                <div class="stats stats-reaction">
+                    <div class="stats__identifier">
+                        <img src="./images/icon-reaction.svg" alt="Reaction icon">
+                        <span id="reaction">Reaction</span>
+                    </div>
+                    <div class="stats__grade">
+                        <p>80 <span class="dark-text">/ 100</span></p>
+                    </div>
+                </div>
+                <div class="stats stats-memory">
+                    <div class="stats__identifier">
+                        <img src="./images/icon-memory.svg" alt="Memory icon">
+                        <span id="memory">Memory</span>
+                    </div>
+                    <div class="stats__grade">
+                        <p>92 <span class="dark-text">/ 100</span></p>
+                    </div>
+                </div>
+                <div class="stats stats-verbal">
+                    <div class="stats__identifier">
+                        <img src="./images/icon-verbal.svg" alt="Verbal icon">
+                        <span id="verbal">Verbal</span>
+                    </div>
+                    <div class="stats__grade">
+                        <p>80 <span class="dark-text">/ 100</span></p>
+                    </div>
+                </div>
+                <div class="stats stats-visual">
+                    <div class="stats__identifier">
+                        <img src="./images/icon-visual.svg" alt="Visual icon">
+                        <span id="visual">Visual</span>
+                    </div>
+                    <div class="stats__grade">
+                        <p>80 <span class="dark-text">/ 100</span></p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
